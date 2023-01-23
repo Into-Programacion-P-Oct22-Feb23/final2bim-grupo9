@@ -15,9 +15,9 @@ public class crearFlickr {
 
        Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese un nombre de usuario");
-        String usuario = entrada.next();
+        String usuario = entrada.nextLine();
         System.out.println("Ingrese su correo electronico de preferencia");
-        String correo = entrada.next();
+        String correo = entrada.nextLine();
         
 
         String mensaje;

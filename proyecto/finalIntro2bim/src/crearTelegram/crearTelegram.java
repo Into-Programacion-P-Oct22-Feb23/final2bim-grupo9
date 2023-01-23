@@ -18,11 +18,13 @@ public class crearTelegram {
         String usuario = entrada.next();
         System.out.println("Ingrese su numero de telefono (movil)");
         int telefono = entrada.nextInt();
+        
+       entrada.nextLine();
        
         System.out.println("Ingrese su ciudad");
-        String ciudad = entrada.next();
+        String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais de nacimiento");
-        String pais = entrada.next();
+        String pais = entrada.nextLine();
 
         System.out.println("Ingrese su area de interes");   
         String area = entrada.nextLine();

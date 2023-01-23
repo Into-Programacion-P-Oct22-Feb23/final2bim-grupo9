@@ -19,10 +19,13 @@ public class crearSignal {
         String usuario = entrada.next();
         System.out.println("Ingrese su numero de telefono (movil)");
         int telefono = entrada.nextInt();
+        
+        entrada.nextLine();
+        
         System.out.println("Ingrese su ciudad");
-        String ciudad = entrada.next();
+        String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais de nacimiento");
-        String pais = entrada.next();
+        String pais = entrada.nextLine();
         System.out.println("Cual es su hobby principal?");
         String hobby = entrada.nextLine();
 

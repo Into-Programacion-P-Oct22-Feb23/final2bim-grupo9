@@ -57,42 +57,43 @@ public class FinalIntro2bim {
                 String mensaje = crearFacebook.crearFacebook();
                 System.out.println(mensaje);
                 contador = contador + 1;
-
+            } else {
+                if (opcion == 2) {
+                    crearTwitter.crearTwitter();
+                    contador = contador + 1;
+                } else {
+                    if (opcion == 3) {
+                        String mensaje = crearWhatsapp.crearWhatsapp();
+                        System.out.println(mensaje);
+                        contador = contador + 1;
+                    } else {
+                        if (opcion == 4) {
+                            crearTelegram.crearTelegram();
+                            contador = contador + 1;
+                        } else {
+                            if (opcion == 5 ) {
+                                String mensaje = crearSignal.crearSignal();
+                                System.out.println(mensaje);
+                                contador = contador + 1;
+                            } else {
+                                if (opcion == 6) {
+                                    crearInstagram.crearInstagram();
+                                    contador = contador + 1;
+                                } else {
+                                    if (opcion == 7) {
+                                        String mensaje = crearFlickr.crearFlickr();
+                                         System.out.println(mensaje);
+                                         contador = contador + 1;
+                                    } 
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+                
             }
-            if (opcion == 2) {
-                crearTwitter.crearTwitter();
-                contador = contador + 1;
-
-            }
-            if (opcion == 3) {
-                String mensaje = crearWhatsapp.crearWhatsapp();
-                System.out.println(mensaje);
-                contador = contador + 1;
-
-            }
-            if (opcion == 4) {
-                crearTelegram.crearTelegram();
-                contador = contador + 1;
-
-            }
-            if (opcion == 5) {
-                String mensaje = crearSignal.crearSignal();
-                System.out.println(mensaje);
-                contador = contador + 1;
-
-            }
-            if (opcion == 6) {
-                crearInstagram.crearInstagram();
-                contador = contador + 1;
-
-            }
-            if (opcion == 7) {
-                String mensaje = crearFlickr.crearFlickr();
-                System.out.println(mensaje);
-                contador = contador + 1;
-
-            }
-
+            
             // terminar = JOptionPane.showInputDialog("Desea salir del menu? Si es asi presione x");
             System.out.println("\nDesea salir del menu? Si es asi presione x"
                     + ", de lo contrario presione cualquier tecla");

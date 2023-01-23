@@ -15,13 +15,16 @@ public class crearInstagram {
     public static void crearInstagram() {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese un nombre de usuario");
-        String usuario = entrada.next();
+        String usuario = entrada.nextLine();
 
         System.out.println("Ingrese su ciudad");
-        String ciudad = entrada.next();
-
+        String ciudad = entrada.nextLine();
+        
+        
         System.out.println("Ingrese su edad");
         int edad = entrada.nextInt();
+        
+        entrada.nextLine();
 
         System.out.println("Ingrese su correo electronico");
         String correo = entrada.next();

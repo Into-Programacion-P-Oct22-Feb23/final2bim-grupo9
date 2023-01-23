@@ -19,10 +19,11 @@ public class crearFacebook {
         String usuario = entrada.next();
         System.out.println("Ingrese su edad");
         int edad = entrada.nextInt();
+        entrada.nextLine();
         System.out.println("Ingrese su ciudad");
-        String ciudad = entrada.next();
+        String ciudad = entrada.nextLine();
         System.out.println("Ingrese su pais de nacimiento");
-        String pais = entrada.next();
+        String pais = entrada.nextLine();
         System.out.println("Ingrese su correo electronico");
         String correo = entrada.next();
 
