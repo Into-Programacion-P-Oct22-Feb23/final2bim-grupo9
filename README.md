@@ -1,5 +1,5 @@
-# 2 Bimestre
-## Proyecto Java
+# 2 Bimestre 
+## Proyecto Java por Carlos Mejia y Richard Ortiz
 
 ***
 
